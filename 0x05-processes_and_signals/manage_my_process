@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#writes "I am alive!" to a file
+
+text=/tmp/my_process
+sudo touch $text
+
+while true; do
+    sudo bash -c "echo \"I am alive!\" >> $text"
+    sleep 2
+done

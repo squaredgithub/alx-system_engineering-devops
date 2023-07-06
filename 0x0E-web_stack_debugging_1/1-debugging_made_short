@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# script link sites-enabled to sites-available and start nginx without running status
+# I made short
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx start
 rm /run/nginx.pid
